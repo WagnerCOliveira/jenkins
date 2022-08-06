@@ -29,6 +29,21 @@ Para cadastrar um usuário ao jenkins necessário ter o arquivo **.env** na raiz
     JENKINS_PASS=SUA_SENHA_AQUI
 ~~~
 
+#### Configurações Jenkins Job
+
+1. Configuração de rotação dos logs.
+
+![alt text](img/j1.png)
+
+2. Adicionando projeto git.
+
+![alt text](img/j2.png)
+
+3. Adicionando **Branch** e path do **Jenkinsfile**
+
+![alt text](img/j3.png)
+
+
 ### 🛠 Tecnologias Utilizadas
 
 As seguintes ferramentas foram usadas na construção do projeto:
@@ -36,6 +51,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Docker 20.10.12](https://docs.docker.com/engine/)
 - [Docker Compose 1.29.2](https://docs.docker.com/compose/)
 - [jenkins LTS](https://www.jenkins.io/doc/book/getting-started/)
+
+
 
 ### Contribuição
 
