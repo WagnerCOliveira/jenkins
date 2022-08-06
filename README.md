@@ -17,7 +17,9 @@ Tabela de conteúdos
 
 Provisione duas instâncias de máquinas virtuais (preferencialmente na AWS) via Terraform. Utilizando o Ansible, em uma das VMs, faça a instalação de uma ferramenta de CI/CD e configure uma pipeline de deploy para uma aplicação open-source de sua escolha (ou faça uma simples API com um endpoint de retorno), tendo como destino para este deploy a segunda VM, onde a aplicação irá rodar. (Envie o endereço do git com a execução da tarefa)
 
+#### Instalação Jenkins via ansible
 
+Instalação [Jenkins](https://github.com/WagnerCOliveira/dotdigital_ias/tree/main/playbooks/install_jenkins)
 
 #### Criação .env
 
