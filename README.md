@@ -21,7 +21,7 @@ Provisione duas instâncias de máquinas virtuais (preferencialmente na AWS) via
 
 #### Criação .env
 
-Para cadastrar um usuário ao jenkins necessário ter o arquivo **.env** na raiz do projeto com as seguintes variaveis. 
+O arquivo **.env** será criaado pela playbook do ansible na raiz do projeto com as seguintes variaveis.
 
 ~~~bash
     JAVA_OPTS=-Djenkins.install.runSetupWizard=false -Dhudson.footerURL=https://jenkins.example.com.br
